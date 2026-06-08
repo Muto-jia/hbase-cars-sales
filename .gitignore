@@ -1,0 +1,38 @@
+# ========== Java / Maven ==========
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# ========== IntelliJ IDEA ==========
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ========== 操作系统 ==========
+# Windows
+Thumbs.db
+Desktop.ini
+# macOS
+.DS_Store
+# Linux
+*~
+
+# ========== 日志文件 ==========
+logs/
+*.log
+
+# ========== 本地数据文件（如果不想上传CSV，可取消下面注释） ==========
+# data/*.csv
+# data/*.xlsx
+# data/*.txt
+
+# ========== 其他 ==========
+# 忽略临时文件
+*.tmp
+*.bak
+*.swp
